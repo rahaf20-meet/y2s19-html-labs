@@ -4,6 +4,15 @@
 	<title>MY SALAD</title>
 </head>
 <body>
+	<style>
+	.content {
+		background-color: LightGray;
+		color: SlateBlue;
+	}
+
+
+</style>
+<div class="intro" style="background-color: Tomato;" >
 	<a href= "https://ifoodreal.com/lettuce-salad"> <img src="lettuce.jpg" style=" height: 300px; width: 250px"> </a>
 	<h1>
 		introduction
@@ -11,15 +20,41 @@
 	<p>
 		this is how to make a normal salad
 	</p>
+</div>
+<div class="content">
 	<table>
 		<tr>
 			<th>ingrediants</th>
 			<th>directions</th>
 		</tr>
 		<tr>
-			<td>lettuce</td>
-			<td>cut your lettuce</td>
+			<td>
+				<ol>
+				<li>lettuce</li>
+				<li>tomato</li>
+				</ol>
+			</td>
+			<td>
+				<ol>
+					<li>cut your lettuce</li>
+					<li>cut you tomatoes</li>
+				</ol>
+			</td>
 		</tr>
 		
 	</table>
+</div>
+<div class="form">
+	<form>
+		<h4>do you love salad?</h4>
+		<input type="radio" name="saladLove" value="yes">YAAAAASSS
+		<input type="radio" name="saladLove" value="no">NO!!
+		<h4>if yes, what salads do you like?</h4>
+		<input type="text" name="saladType" value="" placeholder="fav SALAD">
+		<input type="submit" value="submit">
+		<br>
+		<textarea rows="25" cols="70">
+		</textarea>
+	</form>
+</div>
 </body>
